@@ -1,0 +1,59 @@
+Warning: missing atom C4 L3P is not attatching to ring
+Warning: missing atom C5 L3P is not attatching to ring
+Warning: missing atom C6 L3P is not attatching to ring
+Warning: missing atom O5 L3P is not attatching to ring
+Warning: missing atom O6 L3P is not attatching to ring
+Warning: missing atom O4P L3P is not attatching to ring
+Warning: missing atom O5P L3P is not attatching to ring
+Warning: missing atom O6P L3P is not attatching to ring
+Warning: missing atom P2 L3P is not attatching to ring
+Warning: missing atom C21 L3P is not attatching to ring
+Warning: missing atom C22 L3P is not attatching to ring
+Warning: missing atom C23 L3P is not attatching to ring
+Warning: missing atom C24 L3P is not attatching to ring
+Warning: missing atom C25 L3P is not attatching to ring
+Warning: missing atom C26 L3P is not attatching to ring
+Warning: missing atom C27 L3P is not attatching to ring
+Warning: missing atom C28 L3P is not attatching to ring
+Warning: missing atom C29 L3P is not attatching to ring
+Warning: missing atom C30 L3P is not attatching to ring
+Warning: missing atom C4 L3P is not attatching to ring
+Warning: missing atom C5 L3P is not attatching to ring
+Warning: missing atom C6 L3P is not attatching to ring
+Warning: missing atom O5 L3P is not attatching to ring
+Warning: missing atom O6 L3P is not attatching to ring
+Warning: missing atom O4P L3P is not attatching to ring
+Warning: missing atom O5P L3P is not attatching to ring
+Warning: missing atom O6P L3P is not attatching to ring
+Warning: missing atom P2 L3P is not attatching to ring
+Warning: missing atom C4 L3P is not attatching to ring
+Warning: missing atom C5 L3P is not attatching to ring
+Warning: missing atom C6 L3P is not attatching to ring
+Warning: missing atom O5 L3P is not attatching to ring
+Warning: missing atom O6 L3P is not attatching to ring
+Warning: missing atom O4P L3P is not attatching to ring
+Warning: missing atom O5P L3P is not attatching to ring
+Warning: missing atom O6P L3P is not attatching to ring
+Warning: missing atom P2 L3P is not attatching to ring
+- chain: D
+  glycan_list:
+    B: [400]
+    C: [410]
+    D: [420]
+    H: [270]
+  grs: |
+    1 DPHG
+    2 - 11B: BGLC
+    3 - - 12A: AMAN
+    4 - - - 16B: BGAL
+  patches: {}
+  residue_list: [270, 400, 410, 420]
+  residues:
+    1: {ires: 1, linkage: null, linkage_patch: null, linked_chain: null, linked_ires: null, linked_resid: null, resid: 270, resname: DPHG}
+    2: {ires: 2, linkage: 11B, linkage_patch: DPHGB, linked_chain: H, linked_ires: 1, linked_resid: 270, resid: 400, resname: BGLC}
+    3: {ires: 3, linkage: 12AB, linkage_patch: 12AB, linked_chain: B, linked_ires: 2, linked_resid: 400, resid: 410, resname: AMAN}
+    4: {ires: 4, linkage: 16BB, linkage_patch: 16BT, linked_chain: C, linked_ires: 3, linked_resid: 410, resid: 420, resname: BGAL}
+  root: 270
+  segid: CARA
+  type: glycolipid
+
