@@ -48,7 +48,7 @@
 \newcommand{\Ragrg}{Rag\U{--/--} Il2rg\U{--/--}\xspace} %Rag-/-Il2rg-/-
 
 %% Use these commands to set biographic information for the title page:
-\title{Computational and Experimental Studies of Potassium Channel Pore Domain Folding}
+\title{Computational and Experimental Studies of Potassium Channel Folding}
 \author{Kevin C. Song}
 \department{Biophysical Sciences}
 \divisiona{The Physical Sciences}
@@ -57,9 +57,16 @@
 \date{August, 2018}
 
 %% Use these commands to set a dedication and epigraph text
-\dedication{To my family, Louesa, Byungho, Jeungen, and Kelly}
+\dedication{To my wife,\\
+			Louesa Song\\
+		    To my parents,\\
+            Dr. Byungho Song and Jeungen Yu\\
+            To my sister,\\
+            Kelly Song\\
+            To my parents-in-law,\\
+            Bruce Akin and Dr. S. Renea Akin\\
+            }
 \epigraph{"It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong" - Richard Feynman}
-
 
 \begin{document}
 %% Basic setup commands
@@ -79,27 +86,29 @@
 \listoftables
 
 \acknowledgments
-First, I would like to thank my academic advisors Dr. Beno\^{i}t Roux and Dr. Tobin Sosnick for their guidance throughout my thesis project. The nature of my thesis project was highly explorative, and without their patience and excellent guidance, this project would not have been able to be completed and fluorish. I really appreciate them both for giving me the intellectual freedom to learn how to be creative and teach me how to be a good scientist. \par
+First, I would like to thank my academic advisors Dr. Beno\^{i}t Roux and Dr. Tobin Sosnick for their guidance throughout my thesis project. The nature of my thesis project was highly explorative, and without their patience and excellent guidance, this project would not have been able to be completed and fluorish. I really appreciate them both for giving me the intellectual freedom to learn how to be creative and teach me how to be a good scientist.
 
-I would also like to thank my thesis committee members Dr. Eduardo Perozo and Dr. Andrei Tokmakoff for their insightful suggestions and discussions regarding my project. Specifically, I would like to thank Eduardo for his help with my understanding of membrane protein biochemistry better and I would like to thank Andrei for helping me understand protein kinetics better. \par
+I would also like to thank my thesis committee members Dr. Eduardo Perozo and Dr. Andrei Tokmakoff for their insightful suggestions and discussions regarding my project. Specifically, I would like to thank Eduardo for his help with my understanding of membrane protein biochemistry better and I would like to thank Andrei for helping me understand protein kinetics better.
 
-I have been extremely blessed with helpful and talented lab members, and especially, Yiling Zhang, Jing Li, Younghoon Koh, Michael Baxa, Adam Zmyslowski, Josh Riback \par
+I have been extremely blessed with helpful and talented lab members, and especially, Yiling Zhang, Jing Li, Younghoon Koh, Michael Baxa, Adam Zmyslowski, Josh Riback
 
-The University of Chicago Biophysics program has been invaluable to me, providing financial support as well as many friendships that will last throughout life. Michele Wittels, Julie Feder and Adam Hammond have provided me with assistance and constant support to ease. Eugene Leypunskiy, Herman Gudjonson, Vaughn Spurrier, and Boleslaw Osinski provided me with invaluable support and friendships throughout my tenure at the University of Chicago. I would not have been able to finish the work without their support \par
+The University of Chicago Biophysics program has been invaluable to me, providing financial support as well as many friendships that will last throughout life. Michele Wittels, Julie Feder and Adam Hammond have provided me with assistance and constant support to ease. Eugene Leypunskiy, Herman Gudjonson, Vaughn Spurrier, and Boleslaw Osinski provided me with invaluable support and friendships throughout my tenure at the University of Chicago. I would not have been able to finish the work without their support
 
 Last but not least, I would like to thank my family members Louesa Song, Dr. Byung Ho Song, Jeungen Yu, Bruce Akin, Dr. Renea Akin and Kelly Song for their constant support throughout life and 
 
-
 \abstract
 \par
-For many potassium channels, tetramerization domains in either N- or C-terminal of the pore domain are thought to assist in tetrameric assembly by increasing local concentrations of monomer subunits. However, the pore domain, containing two transmembrane and a re-entrant pore helix, by itself form tetramers. Here, we investigate how the structural dynamics of monomers and tetramerization domains affect tetramer assembly of the potassium channels. Using Molecular Dynamics (MD) simulations, Markov State Modeling (MSM), Nuclear Magnetic Resonance (NMR), and a gel-based refolding assay, we find that wild-type (WT) potassium channel monomers exist in a partially disordered state and this affects kinetics and thermodynamics of tetramerization. MSM for the monomer simulations show that ~80\% of the population having the two transmembrane helices separated. We introduce 2 cysteine mutations at the bottom of each of these helices to lock them in a native-like arrangement. A [1H, 15N]-TROSY-HSQC NMR spectrum of WT monomer in bicelles is poor due to aggregation and heterogeneity; however, the disulfide mutant shows a spectrum with well-dispersed peaks, suggesting that the disulfide mutant retains a native-like spectrum with limited heterogeneity on NMR time-scale. We perform a refolding study in liposomes and find that the kinetics is faster and the yield of tetramers is higher in the disulfide bonded native-like mutant. We suggest that WT monomers behave as partially disordered states in the bilayer with a high proclivity to misfold due to stable non-native helical tetramerization. The rate limiting step for the disulfide mutant is concentration independent suggesting that folding is limited by a unimolecular events such as insertion of the pore helix into a tetramer formed by the eight transmembrane helices. Refolding of full-length KcsA monomers is concentration dependent and addition of the tetramerization domain hinders the folding of disulfide mutant. We suggest that the tetramerization domain is for selectivity rather than stability of tetramers.
+This thesis connects the dynamics of Kv1.2 and KcsA potassium channel pore domain monomers to the kinetics of tetramerization. In simulations, monomers adopt multiple conformations with the three helices folded. NMR studies also find the monomers to be dynamic and structurally heterogeneous. However, a KcsA construct with a disulfide bridge engineered between the two transmembrane helices has an NMR spectrum with well-dispersed peaks, suggesting that the monomer can be locked into a native-like conformation. During tetramerization, FRET results indicate that monomers rapidly oligomerize upon insertion into liposomes, likely forming a dense protein-rich phase. Folding within this protein-rich phase occurs along separate fast and slow routes, with f ~ 40 and 1500 seconds, respectively. In contrast, constructs bearing the disulfide bond mainly fold via the faster pathway, suggesting that maintaining the TM helices in their native orientation reduces misfolding. Interestingly, folding is concentration independent in spite of the tetrameric nature of the channel, indicating that the rate-limiting step is unimolecular and occurs after monomer association in protein-rich phase. Finally, despite its name, the addition of KcsA’s C-terminal “tetramerization” domain does not improve the kinetics of tetramerization.
 
 \mainmatter
-% Main body of text follows
+% Main body of text follows 
 
 %% INTRODUCTION %%
 \input{sections/introduction.tex}
-
+\input{sections/chapter2.tex}
+\input{sections/chapter3.tex}
+\input{sections/chapter4.tex}
+\input{sections/conclusion.tex}
 % Format a LaTeX bibliography
 \makebibliography
 

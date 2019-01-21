@@ -200,7 +200,7 @@
 	\addcontentsline{toc}{chapter}{References}
 	\begin{singlespace}
 		\bibliography{thesis_ref}
-		\bibliographystyle{plain}
+		\bibliographystyle{unsrt}
 	\end{singlespace}
 }
 
