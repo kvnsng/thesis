@@ -213,19 +213,11 @@ C.~Gajewski, A.~Dagcan, B.~Roux, and C.~Deutsch.
 \newblock {\em Proceedings of the National Academy of Sciences of the United
   States of America}, 108(8):3240--3245, 2011.
 
-\bibitem{shaw2009}
-D.~E. Shaw.
-\newblock Anton: A specialized machine for millisecond-scale molecular dynamics
-  simulations of proteins.
-\newblock {\em Abstracts of Papers of the American Chemical Society}, 238,
-  2009.
-
-\bibitem{ulmschneider2014}
-M.~B. Ulmschneider, J.~P. Ulmschneider, N.~Schiller, B.~A. Wallace, G.~von
-  Heijne, and S.~H. White.
-\newblock Spontaneous transmembrane helix insertion thermodynamically mimics
-  translocon-guided insertion.
-\newblock {\em Nature Communications}, 5, 2014.
+\bibitem{delaney2014}
+E.~Delaney, P.~Khanna, L.~W. Tu, J.~M. Robinson, and C.~Deutsch.
+\newblock Determinants of pore folding in potassium channel biogenesis.
+\newblock {\em Proceedings of the National Academy of Sciences of the United
+  States of America}, 111(12):4620--4625, 2014.
 
 \bibitem{long2005}
 S.~B. Long, E.~B. Campbell, and R.~MacKinnon.
@@ -274,11 +266,25 @@ E.~L. Wu, X.~Cheng, S.~Jo, H.~Rui, K.~C. Song, E.~M. Davila-Contreras, Y.~F.
   simulations.
 \newblock {\em Journal of Computational Chemistry}, 35(27):1997--2004, 2014.
 
+\bibitem{shaw2009}
+D.~E. Shaw.
+\newblock Anton: A specialized machine for millisecond-scale molecular dynamics
+  simulations of proteins.
+\newblock {\em Abstracts of Papers of the American Chemical Society}, 238,
+  2009.
+
 \bibitem{phillips2005}
 J.~C. Phillips, R.~Braun, W.~Wang, J.~Gumbart, E.~Tajkhorshid, E.~Villa,
   C.~Chipot, R.~D. Skeel, L.~Kale, and K.~Schulten.
 \newblock Scalable molecular dynamics with namd.
 \newblock {\em Journal of Computational Chemistry}, 26(16):1781--1802, 2005.
+
+\bibitem{ulmschneider2014}
+M.~B. Ulmschneider, J.~P. Ulmschneider, N.~Schiller, B.~A. Wallace, G.~von
+  Heijne, and S.~H. White.
+\newblock Spontaneous transmembrane helix insertion thermodynamically mimics
+  translocon-guided insertion.
+\newblock {\em Nature Communications}, 5, 2014.
 
 \bibitem{tuckerman1992}
 M.~Tuckerman, B.~J. Berne, and G.~J. Martyna.
@@ -298,6 +304,25 @@ R.~T. McGibbon, K.~A. Beauchamp, M.~P. Harrigan, C.~Klein, J.~M. Swails, C.~X.
   trajectories.
 \newblock {\em Biophysical Journal}, 109(8):1528--1532, 2015.
 
+\bibitem{molgedey1994}
+L.~Molgedey and H.~G. Schuster.
+\newblock Separation of a mixture of independent signals using time-delayed
+  correlations.
+\newblock {\em Physical Review Letters}, 72(23):3634--3637, 1994.
+
+\bibitem{perezHernandez2013}
+G.~Perez-Hernandez, F.~Paul, T.~Giorgino, G.~De~Fabritiis, and F.~Noe.
+\newblock Identification of slow molecular order parameters for markov model
+  construction.
+\newblock {\em Journal of Chemical Physics}, 139(1), 2013.
+
+\bibitem{schwantes2013}
+C.~R. Schwantes and V.~S. Pande.
+\newblock Improvements in markov state model construction reveal many
+  non-native interactions in the folding of ntl9.
+\newblock {\em Journal of Chemical Theory and Computation}, 9(4):2000--2009,
+  2013.
+
 \bibitem{bowman2010}
 G.~R. Bowman, D.~L. Ensign, and V.~S. Pande.
 \newblock Enhanced modeling via network theory: Adaptive sampling of markov
@@ -305,17 +330,11 @@ G.~R. Bowman, D.~L. Ensign, and V.~S. Pande.
 \newblock {\em Journal of Chemical Theory and Computation}, 6(3):787--794,
   2010.
 
-\bibitem{delaney2014}
-E.~Delaney, P.~Khanna, L.~W. Tu, J.~M. Robinson, and C.~Deutsch.
-\newblock Determinants of pore folding in potassium channel biogenesis.
-\newblock {\em Proceedings of the National Academy of Sciences of the United
-  States of America}, 111(12):4620--4625, 2014.
-
-\bibitem{molgedey1994}
-L.~Molgedey and H.~G. Schuster.
-\newblock Separation of a mixture of independent signals using time-delayed
-  correlations.
-\newblock {\em Physical Review Letters}, 72(23):3634--3637, 1994.
+\bibitem{ahmed2018}
+M.~C. Ahmed, E.~Papaleo, and K.~Lindorff-Larsen.
+\newblock How well do force fields capture the strength of salt bridges in
+  proteins?
+\newblock {\em Peerj}, 6, 2018.
 
 \bibitem{noe2015}
 F.~Noe and C.~Clementi.
@@ -330,17 +349,63 @@ F.~Noe, R.~Banisch, and C.~Clementi.
 \newblock {\em Journal of Chemical Theory and Computation}, 12(11):5620--5630,
   2016.
 
-\bibitem{perezHernandez2013}
-G.~Perez-Hernandez, F.~Paul, T.~Giorgino, G.~De~Fabritiis, and F.~Noe.
-\newblock Identification of slow molecular order parameters for markov model
-  construction.
-\newblock {\em Journal of Chemical Physics}, 139(1), 2013.
+\bibitem{heginbotham1997}
+L.~Heginbotham, E.~Odessey, and C.~Miller.
+\newblock Tetrameric stoichiometry of a prokaryotic k+ channel.
+\newblock {\em Biochemistry}, 36(33):10335--10342, 1997.
 
-\bibitem{schwantes2013}
-C.~R. Schwantes and V.~S. Pande.
-\newblock Improvements in markov state model construction reveal many
-  non-native interactions in the folding of ntl9.
-\newblock {\em Journal of Chemical Theory and Computation}, 9(4):2000--2009,
-  2013.
+\bibitem{valiyaveetil2002lipids}
+F.~I. Valiyaveetil, Y.~Zhou, and R.~MacKinnon.
+\newblock Lipids in the structure, folding, and function of the kcsa k+
+  channel.
+\newblock {\em Biochemistry}, 41(35):10771--7, 2002.
+
+\bibitem{shenkarev2013}
+Zakhar~O Shenkarev, Ekaterina~N Lyukmanova, Ivan~O Butenko, Lada~E Petrovskaya,
+  Alexander~S Paramonov, Mikhail~A Shulepko, Oksana~V Nekrasova, Mikhail~P
+  Kirpichnikov, and Alexander~S Arseniev.
+\newblock Lipid--protein nanodiscs promote in vitro folding of transmembrane
+  domains of multi-helical and multimeric membrane proteins.
+\newblock {\em Biochimica et Biophysica Acta (BBA)-Biomembranes},
+  1828(2):776--784, 2013.
+
+\bibitem{tilegenova2016}
+Cholpon Tilegenova, Spandana Vemulapally, Doris~M Cortes, and Luis~G Cuello.
+\newblock An improved method for the cost-effective expression and purification
+  of large quantities of kcsa.
+\newblock {\em Protein expression and purification}, 127:53--60, 2016.
+
+\bibitem{bhate2013}
+Manasi~P Bhate, Benjamin~J Wylie, Ameer Thompson, Lin Tian, Crina Nimigean, and
+  Ann~E McDermott.
+\newblock Preparation of uniformly isotope labeled kcsa for solid state nmr:
+  Expression, purification, reconstitution into liposomes and functional assay.
+\newblock {\em Protein expression and purification}, 91(2):119--124, 2013.
+
+\bibitem{lee2006}
+D.~Lee, C.~Hilty, G.~Wider, and K.~Wuthrich.
+\newblock Effective rotational correlation times of proteins from nmr
+  relaxation interference.
+\newblock {\em Journal of Magnetic Resonance}, 178(1):72--76, 2006.
+
+\bibitem{cavanagh2007}
+J.~Cavanagh, W.~J. Fairbrother, A.~G. Palmer, M.~Rance, and N.~J. Skelton.
+\newblock Protein nmr spectroscopy: Principles and practice, 2nd edition.
+\newblock {\em Protein Nmr Spectroscopy: Principles and Practice, 2nd Edition},
+  pages 1--888, 2007.
+
+\bibitem{cho1999}
+C.~H. Cho, J.~Urquidi, S.~Singh, and G.~W. Robinson.
+\newblock Thermal offset viscosities of liquid h2o, d2o, and t2o.
+\newblock {\em Journal of Physical Chemistry B}, 103(11):1991--1994, 1999.
+
+\bibitem{nesg2011}
+October, 13th 2011.
+
+\bibitem{pond2012}
+M.~P. Pond, A.~Majumdar, and J.~T.~J. Lecomte.
+\newblock Influence of heme post-translational modification and distal ligation
+  on the backbone dynamics of a monomeric hemoglobin.
+\newblock {\em Biochemistry}, 51(29):5733--5747, 2012.
 
 \end{thebibliography}

@@ -27,8 +27,20 @@ Prior to refolding, precipitated KcsA $\Delta$125 monomers were solubilized in 0
 was used and fitted using Scipy.optimize package in python.
 
 \subsection{F\"{o}rster resonance energy transfer (FRET) of KcsA in liposomes}
-FRET sample preparation and instrumentation
-For the site of dye conjugation, L86 in KcsA was chosen. The L86C mutation was obtained using the QuickChange protocol. Protein was expressed and purified as discussed above. Conjugation of either Cy3 or Cy5 maleimide (Kerafast) was done by overnight incubation at 4 C. Excess dye molecules were removed by size-exclusion chromatography using Superdex 200 Increase column. Conjugation efficiency was calculated by the following equation:
+For the site of dye conjugation, L86 in KcsA was chosen. The L86C mutation was obtained using the QuickChange protocol. Protein was expressed and purified as discussed above. Conjugation of either Cy3 or Cy5 maleimide (Kerafast) was done by overnight incubation at 4 $^{\circ}$C. Excess dye molecules were removed by size-exclusion chromatography using Superdex 200 Increase column (\textbf{Fig. \ref{fig:ch4_f2}} 
+
+\begin{figure}[!ht]
+\begin{center}
+	\includegraphics[width=\textwidth]{figures/chapter4/sec_cy3_cy5.pdf}
+\end{center}
+	\caption{\textbf{Structure of KcsA (PDB ID: 1R3J) shown from different angles}. \textbf{(A)} KcsA shown from the extracellular side of the membrane. \textbf{(B)} KcsA shown from the side. \textbf{(C)} KcsA viewed from the side with 2 monomers removed for better visualization of the selectivity filter. The oxygen atoms lining the selectivity region is rendered in Licoriche mode and the protein structures are rendered in New Cartoon mode in VMD. Each monomer of KcsA is colored in grey, blue, orange and red.}
+	\label{fig:ch4_f2}
+\end{figure}
+
+
+Conjugation efficiency was calculated by the following equation:
+
+
 
 \begin{equation}
 	\mathrm{Conjugation\ Efficiency} = \frac{\epsilon_{dye}\alpha_{dye}}{\epsilon_{prot}\alpha_{280nm}+\epsilon_{dye}\alpha_{dye}}
@@ -59,27 +71,27 @@ Slow population    & \begin{tabular}[c]{@{}c@{}}0.77 $\pm$ 0.03 \\ (0.70 $\pm$ 0
 	\label{table:ch4_t1}
 	\end{table}
 	
-For KcsA $\Delta$125 monomers at 10 $\mu$M monomer concentration, two nearly equal refolding populations were observed, one that folded on sub-minute and another that folded on the 10 minute time scale (\textbf{Fig. \ref{fig:ch4_f2}}). Since the buildup of native tetramers is directly measured, the fast and slow appearance of native tetramers implies that there are multiple routes to the native state, rather than each phase representing a step on a sequential pathway, which would have resulted in a 10 minute lag in the buildup of tetramers.
+For KcsA $\Delta$125 monomers at 10 $\mu$M monomer concentration, two nearly equal refolding populations were observed, one that folded on sub-minute and another that folded on the 10 minute time scale (\textbf{Fig. \ref{fig:ch4_f3}}). Since the buildup of native tetramers is directly measured, the fast and slow appearance of native tetramers implies that there are multiple routes to the native state, rather than each phase representing a step on a sequential pathway, which would have resulted in a 10 minute lag in the buildup of tetramers.
 
 \begin{figure}[!ht]
 \begin{center}
 	\includegraphics[width=\textwidth]{figures/chapter4/Fig4-2_kinetics.pdf}
 \end{center}
 	\caption{\textbf{Proposed KcsA folding and tetramerization.} SDS-solubilized monomers enter the liposomes and undergo rapid association into a protein-rich phase within the membrane prior to tetramerization. Oligomers can form with a native or non-native TM helical arrangement, which fold on the minute or 20 minute time scale, respectively, The rate limiting step on the faster pathway is proposed to involve the insertion of the pore helix to stabilize the tetramer in its native conformation.}
-	\label{fig:ch4_f2}
+	\label{fig:ch4_f3}
 \end{figure}
 
-For the disulfide bonded CC construct, essentially all the monomers tetramerized at the fast rate (\textbf{Fig. \ref{fig:ch4_f2}}). This difference implied that the presence of unconstrained TM helices enabled the formation of a stably misfolded, slow folding species. Data for the WT and CC were fit globally, assuming the rates of the two phases were the same for the two versions. The resulting time constants were $\tau_{fast}$ = 40 $\pm$ 2 s and $\tau_{slow}$ = 1500 $\pm$ 100 s, with a 28 $\pm$ 6\% and 74 $\pm$ 6\% fast folding population for the WT and CC constructs, respectively.
+For the disulfide bonded CC construct, essentially all the monomers tetramerized at the fast rate (\textbf{Fig. \ref{fig:ch4_f3}}). This difference implied that the presence of unconstrained TM helices enabled the formation of a stably misfolded, slow folding species. Data for the WT and CC were fit globally, assuming the rates of the two phases were the same for the two versions. The resulting time constants were $\tau_{fast}$ = 40 $\pm$ 2 s and $\tau_{slow}$ = 1500 $\pm$ 100 s, with a 28 $\pm$ 6\% and 74 $\pm$ 6\% fast folding population for the WT and CC constructs, respectively.
 
 \begin{figure}[!ht]
 \begin{center}
 	\includegraphics[width=\textwidth]{figures/chapter4/Fig4-3_conc_dependence.pdf}
 \end{center}
 	\caption{\textbf{Proposed KcsA folding and tetramerization.} SDS-solubilized monomers enter the liposomes and undergo rapid association into a protein-rich phase within the membrane prior to tetramerization. Oligomers can form with a native or non-native TM helical arrangement, which fold on the minute or 20 minute time scale, respectively, The rate limiting step on the faster pathway is proposed to involve the insertion of the pore helix to stabilize the tetramer in its native conformation.}
-	\label{fig:ch4_f3}
+	\label{fig:ch4_f4}
 \end{figure}
 
-Next, the concentration dependence of the folding rates was studied. Interestingly, the tetramerization process, both in rate and branching ratio, appeared to be concentration independent from 1 to 10 $\mu$M within the accuracy of our measurements (\textbf{Fig. \ref{fig:ch4_f3}, Table. \ref{table:ch4_t1}}). This striking result indicates that the rate-limiting step in the folding process is a unimolecular process, despite the native state being a tetramer. If tetramerization was limited by the association of four monomers or two unstable dimers, one would have observed a 1000-fold slowing for a 10-fold decrease in concentration. As no measurable slowing was found, we propose that the oligomerization process occurs early and is fast on both routes, with the rate-limiting step representing a productive folding (fast pathway) or error-correction step (slow pathway). This proposal and the nature of this fast oligomerization process are investigated further with FRET below.
+Next, the concentration dependence of the folding rates was studied. Interestingly, the tetramerization process, both in rate and branching ratio, appeared to be concentration independent from 1 to 10 $\mu$M within the accuracy of our measurements (\textbf{Fig. \ref{fig:ch4_f4}, Table. \ref{table:ch4_t1}}). This striking result indicates that the rate-limiting step in the folding process is a unimolecular process, despite the native state being a tetramer. If tetramerization was limited by the association of four monomers or two unstable dimers, one would have observed a 1000-fold slowing for a 10-fold decrease in concentration. As no measurable slowing was found, we propose that the oligomerization process occurs early and is fast on both routes, with the rate-limiting step representing a productive folding (fast pathway) or error-correction step (slow pathway). This proposal and the nature of this fast oligomerization process are investigated further with FRET below.
 
 \subsection{FRET measurements suggest a formation of protein-rich phase}
 The SDS folding assay indicated that the folding of both the WT and CC constructs has a minimal concentration dependence implying that the rate-limiting step is a unimolecular process. This step seems likely to occur after oligomerization in the liposomes. In principle, however, the insertion of monomers into the liposomes could be rate limiting. To test whether oligomerization is fast and occurs before the rate-limiting step, ensemble FRET measurements were carried out.
@@ -89,17 +101,17 @@ The SDS folding assay indicated that the folding of both the WT and CC construct
 	\includegraphics[width=8cm]{figures/chapter4/Fig4-4_fretpos.pdf}
 \end{center}
 	\caption{\textbf{Structure of KcsA with position L86C in purple.} Cy3 and Cy5 dyes were conjugated to position L86C, and mixed at a 1:1 ratio which results in two potential FRET distances of 32 and 42 Å.}
-	\label{fig:ch4_f4}
+	\label{fig:ch4_f5}
 \end{figure}
 
-Dyes were first attached using thiol-labeling at a single position using a KcsA $\Delta$125 L86C variant (\textbf{Fig. \ref{fig:ch4_f4}}). Equal mixtures of donor (Cy3) and acceptor (Cy5) labeled KcsA $\Delta$125 were mixed and diluted 10-fold into the liposome mixture to initiate folding and the transfer of fluorescence was monitored (\textbf{Fig. \ref{fig:ch4_f5}}). Initially, the emission spectrum was dominated by that of the donor implying that most molecules began as isolated monomers. Upon dilution into a liposome mixture, the donor emission maximum at 570 nm was quenched by 71\% within the 10 second manual mixing dead-time while the acceptor’s emission at 680 nm increased by 7.6-fold. During the next 25 minutes over which tetramer formation occurred, only a 4\% increase in intensity was observed across the entire emission spectrum. 
+Dyes were first attached using thiol-labeling at a single position using a KcsA $\Delta$125 L86C variant (\textbf{Fig. \ref{fig:ch4_f5}}). Equal mixtures of donor (Cy3) and acceptor (Cy5) labeled KcsA $\Delta$125 were mixed and diluted 10-fold into the liposome mixture to initiate folding and the transfer of fluorescence was monitored (\textbf{Fig. \ref{fig:ch4_f6}}). Initially, the emission spectrum was dominated by that of the donor implying that most molecules began as isolated monomers. Upon dilution into a liposome mixture, the donor emission maximum at 570 nm was quenched by 71\% within the 10 second manual mixing dead-time while the acceptor’s emission at 680 nm increased by 7.6-fold. During the next 25 minutes over which tetramer formation occurred, only a 4\% increase in intensity was observed across the entire emission spectrum. 
 
 \begin{figure}[!ht]
 \begin{center}
 	\includegraphics[width=\textwidth]{figures/chapter4/Fig4-5_fretdata.pdf}
 \end{center}
 	\caption{\textbf{FRET measurements of KcsA tetramerization.} \textbf{(A)} Ensemble FRET measurement of the KcsA monomer in SDS and in liposome as a function of time \textbf{(B)} Double-jump (unfold-fold-unfold) FRET measurements of KcsA refolding quenched with 10\% SDS overlaid with ‘in sds’ and ‘10s in liposome time points’ from \textbf{(A)}. Spectra are normalized to have the same value at 641 nm, an empirical iso-emissive point. Measurements are conducted at a monomer concentration of 10 $\mu$M.}
-	\label{fig:ch4_f5}
+	\label{fig:ch4_f6}
 \end{figure}
 
 This biphasic FRET signal is interpreted as follows. The initial FRET increase indicates that the monomers labeled with donor and acceptor dyes rapidly associate in the liposomes prior to tetramerization. The minimal subsequent change implies that the FRET level in the rapidly associated monomers is similar to the level of folded tetramers in liposomes. The observation that most of the change in FRET signal occurred before significant tetramer formation, along with an estimate of $\sim$ 30 –- 300 monomers per liposome at 1 –- 10 $\mu$M monomer concentration, argues that most of the population forms a non-native oligomeric state upon insertion into liposomes with a FRET level comparable to that of native tetramers. The oligomers may become part of a protein-rich phase within the membrane.
@@ -111,7 +123,7 @@ To examine the possibility that FRET occurred within protein aggregates forming 
 	\includegraphics[width=\textwidth]{figures/chapter4/Fig4-6_watercontrol.png}
 \end{center}
 	\caption{\textbf{FRET measurements of KcsA tetramerization.} \textbf{(A)} Ensemble FRET measurement of the KcsA monomer in SDS and in liposome as a function of time \textbf{(B)} Double-jump (unfold-fold-unfold) FRET measurements of KcsA refolding quenched with 10\% SDS overlaid with ‘in sds’ and ‘10s in liposome time points’ from \textbf{(A)}. Spectra are normalized to have the same value at 641 nm, an empirical iso-emissive point. Measurements are conducted at a monomer concentration of 10 $\mu$M.}
-	\label{fig:ch4_f6}
+	\label{fig:ch4_f7}
 \end{figure}
 
 \section{Conclusion}
@@ -127,7 +139,7 @@ FRET-monitored refolding measurements of monomers passing from SDS into liposome
 	\includegraphics[width=\textwidth]{figures/chapter4/Fig4-7_summary.pdf}
 \end{center}
 	\caption{\textbf{Proposed KcsA folding and tetramerization.} SDS-solubilized monomers enter the liposomes and undergo rapid association into a protein-rich phase within the membrane prior to tetramerization. Oligomers can form with a native or non-native TM helical arrangement, which fold on the minute or 20 minute time scale, respectively, The rate limiting step on the faster pathway is proposed to involve the insertion of the pore helix to stabilize the tetramer in its native conformation.}
-	\label{fig:ch4_f7}
+	\label{fig:ch4_f8}
 \end{figure}
 
 In spite of the channel being a tetramer, folding of the WT 125 and CC 125 constructs was concentration independent from 1 – 10 M for both the fast and slow phases, both in rate and amplitude. This observation implies that the rate-limiting step on both pathways is unimolecular. Because the FRET measurements indicated that the monomer insertion and oligomerization was relatively quick, the rate-limiting step on the fast pathway likely occurs going from an oligomer to a native tetramer. This complex transition requires the formation of the slightly twisted arrangement of the 8 TM helices, and the energetically costly opening of an aqueous channel. Final formation of native tetramers may occur in a concerted step with the association of correctly folded monomers already having the pore helices and selectivity filters positioned in a native or near-native orientation. Alternatively, this event may occur in two distinct steps, with the p-helices and selectivity filter segments folding into position only after the 8 TM have adopted their correct native arrangement. Further studies are needed to resolve this question.
