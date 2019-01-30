@@ -99,10 +99,10 @@ Based on previous simulations of WT Kv1.2 and KcsA monomers as well as NMR resul
 For preparing monomer samples, we follow the protocol highlighted in Figure \ref{fig:ch3_f1}. Purified tetrameric KcsA after SEC step are all pooled together, and they are precipitated by adding 15\% v/v tricholoroacetic acid (TCA) to the samples. The precipitated samples were frozen at -70 $^{\circ}$C for 30 minutes. Then, the frozen samples were spun down at 16,200 RCF for 30 minutes at 4 $^{\circ}$C. Supernatant was removed, and washed with chilled (-20 $^{\circ}$C) acetone. Precipitates were resuspended, vortexed for 30 seconds, and incubated at -20 $^{\circ}$C for 30 minutes until spin down at 16,200 RCF for 15 minutes at 4 $^{\circ}$C. This acetone wash step was repeated 3 times. The final precipitate was dried under air until all acetone evaporated, and the precipitate was stored in -80 $^{\circ}$C until usage. For solubilizing the precipitated monomers, either 1\% SDS or 100\% TFE is used.
 
 \subsubsection{KcsA monomer in nanodisc}
-For placing KcsA monomer in nanodisc, 
+The protocol for kinetically trapping KcsA monomer in nanodisc was adopted from \citep{hagn2013} and \citep{ritchie2009}. First, 0.5\% SDS-solubilized KcsA monomers is mixed with 1,2-dimyristoyl-sn-glycero-3-phosphoglycerol (DMPG) and sodium cholate. Typically, DMPG is mixed with cholate at ratio of 1:2. Optimal protein to lipid ratio was determined empirically at 1:5 by checking the monodispersity of size-exlusion chromatography (SEC) elution profile. After an hour of mixing at room temperature, 1 g of Biobead SM-2 is added per mL of nanodisc mixture. Then, the mixtures with Biobeads is further mixed for overnight at room temperature. Biobeads were removed by centrifugation and nanodiscs were further purified by SEC using Superdex 200 Increase column. 
 
 \subsubsection{KcsA monomer in bicelle}
-KcsA monomer samples in bicelles were prepared in q=0.3 DMPC:DHPC bicelles using following procedure. Bicelle mixture was first prepared by adding 1:3 molar ratio of DMPC to DHPC (both solubilized in chloroform) at final lipid concentration of 10\% w/v in the NMR sample. Chloroform was evaporated under stream of nitrogen and further removed under vacuum for 3 – 4 hours. This procedure resulted in a thin lipid film, which was resolubilized in 2,2,2-trifluoroethanol (TFE). WT KcsA $\Delta$125 precipitate is solubilized in TFE and mixed into the lipid TFE mixture. TFE was evaporated under a stream of nitrogen until a thin film formed around the glass tube and was further evaporated by placing the tube under vacuum overnight. 
+KcsA monomers in bicelles were prepared in q=0.3 DMPC:DHPC bicelles using following procedure. Bicelle mixture was first prepared by adding 1:3 molar ratio of DMPC or POPC to DHPC (both solubilized in chloroform) at final lipid concentration of 10\% w/v in the NMR sample. Chloroform was evaporated under stream of nitrogen and further removed under vacuum for 3 –- 4 hours. This procedure resulted in a thin lipid film, which was resolubilized in 2,2,2-trifluoroethanol (TFE). WT KcsA $\Delta$125 precipitate is solubilized in TFE and mixed into the lipid TFE mixture. TFE was evaporated under a stream of nitrogen until a thin film formed around the glass tube and was further evaporated by placing the tube under vacuum overnight. Then, the thin lipid film was rehydrated with buffer of choice and vortexed for 30 seconds. Typically for NMR, the buffer contained 20 mM NaPi, 50 mM NaCl, 0.03\% NaN$_{3}$, and pH6.5. 
 
 \subsection{Nuclear magnetic resonance (NMR) measurements of KcsA}
 NMR spectra were acquired on Bruker AVANCE IIIHD 600 MHz NMR spectrometer equipped with a room temperature TXI probe. [$^{1}$H, $^{15}$N]-TROSY HSQC experiments were run at T=323 K. To obtain rotational correlation times, $\tau_{c}$, [15N, 1H]-TRACT experiments were performed. \citep{lee2006, cavanagh2007, cho1999, nesg2011, pond2012} 
@@ -113,20 +113,41 @@ The starting structure for KcsA monomer simulations was taken from the tetrameri
 For MSM analysis, all KcsA simulations were first projected onto the TIC space created by Kv1.2 simulations. KcsA monomer has 103 residues in total whereas Kv1.2 pore domain has 99 residues. In order to project KcsA monomer simulations, C$\alpha$ atoms were aligned to Kv1.2 structure. The final corresponding residues in KcsA were from residues 24 to 122, which were used for TICA projection. After projecting KcsA simulations onto the same TIC space as Kv1.2, all simulations were combined in order to create the same number of microstates using K-Center clustering algorithm. After the same microstates were created, Markov state model constructions were done as described in SI Methods. However, MSM was constructed separately for Kv1.2, KcsA WT and KcsA CC using the same set of microstates.
 
 \section{Results and Discussion}
-\subsection{Purification of KcsA tetramers}
+\subsection{WT KcsA monomers are structurally diverse}
+
+Expression and purification of KcsA tetramers is straightforward. Many labs can reliably produce large amounts of KcsA for biophysical studies. \citep{chill2007, valiyaveetil2002semi, barrera2005, tilegenova2016, bhate2013, takeuchi2007, cortes1997} KcsA $\Delta$125 constructs are prepared by incubating KcsA full-length (FL) constructs with $\alpha$-chymotrypsin at 1:50 ratio overnight at 4 $^{\circ}$C. Then, the KcsA $\Delta$125 are purified from chymotrypsin by size-exclusion chromatography (SEC) with Superdex 200 Increase column as shown in Figure \ref{fig:ch3_f2}B.
+
 \begin{figure}[!ht]
 \begin{center}
-	\includegraphics[width=12cm]{figures/chapter3/sec.png}
+	\includegraphics[width=\textwidth]{figures/chapter3/wtkcsa_gel_sec.pdf}
 \end{center}
-	\caption{\textbf{Simulation comparison between Kv1.2 and KcsA.} \textbf{(A)} Number of contacts between the 2 transmembrane helices are plotted as a function of simulation time. \textbf{(B)} RMSD of the overall monomer is plotted as a function of time. \textbf{(C)} Kv1.2 and KcsA simulations are projected onto the same TIC space. Markov state model is made using the same set of microstates and the correponding free energy surface is plotted}
+	\caption{\textbf{Purification of KcsA} \textbf{(A)} SDS-PAGE gel with KcsA full-length (FL), KcsA $\Delta$125, monomeric KcsA (mKcsA) $\Delta$125. \textbf{(B)} Elution profile of WT KcsA $\Delta$ tetramer with chymotrypsin. KcsA $\Delta$125 elutes around 13 mL and chymotrypsin elutes near 16 mL.}
 	\label{fig:ch3_f2}
 \end{figure}
 
-\subsection{Preparation of potassium channel monomers}
+KcsA monomers are prepared by trichloroacetic acid (TCA)/Acetone precipitation protocol as discussed in \textit{Methods} section. The precipitate monomers can be solubilized in 0.5\% SDS and is shown to run as 13 kDa on SDS-PAGE (\textbf{Fig. \ref{fig:ch3_f2}}). The monomers were then transferred to nanodisc or bicelle for NMR studies.
 
+\begin{figure}[!ht]
+\begin{center}
+	\includegraphics[width=\textwidth]{figures/chapter3/wt_nmr.pdf}
+\end{center}
+	\caption{\textbf{[$^{15}$N-$^{1}$H]-TROSY-HSQC spectra of KcsA WT.}  \textbf{(A)} HSQC of KcsA $\Delta$125 solubilized in MSP1D1 $\Delta$H5 nanodisc is shown. \textbf{(B)} HSQC of KcsA $\Delta$125 solubilized in q=0.3 DMPC:DHPC bicelle is shown.}
+	\label{fig:ch3_f3}
+\end{figure}
 
+NMR spectra of WT KcsA in either MSP1D1 $\Delta$H5 or q=0.3 DMPC:DHPC bicelle do not show well-resolved peaks in general. In fact, for WT KcsA solubilized in bicelle easily forms soluble aggregates in the NMR sample conditions. In Chapter 2, we found that Kv1.2 and KcsA monomers seem to be structurally diverse through MD simulations and Markov state model analysis. Given our NMR spectra and the computational modelling results, we suspect that the WT KcsA monomers are structurally heterogeneous in lipid bilayers. 
 
-\subsection{Design of KcsA CC mutant}
+\subsection{Designing more native-like KcsA mutant}
+
+With the KcsA mutant
+
+\begin{figure}[!ht]
+\begin{center}
+	\includegraphics[width=\textwidth]{figures/chapter3/cc_sec_gel.pdf}
+\end{center}
+	\caption{\textbf{[$^{15}$N-$^{1}$H]-TROSY-HSQC spectra of KcsA WT.}  \textbf{(A)} HSQC of KcsA $\Delta$125 solubilized in MSP1D1 $\Delta$H5 nanodisc is shown. \textbf{(B)} HSQC of KcsA $\Delta$125 solubilized in q=0.3 DMPC:DHPC bicelle is shown.}
+	\label{fig:ch3_f4}
+\end{figure}
 
 \subsection{NMR of potassium channel monomers}
 
@@ -135,7 +156,7 @@ For MSM analysis, all KcsA simulations were first projected onto the TIC space c
 	\includegraphics[width=\textwidth]{figures/chapter3/nmr.pdf}
 \end{center}
 	\caption{\textbf{Simulation comparison between Kv1.2 and KcsA.} \textbf{(A)} Number of contacts between the 2 transmembrane helices are plotted as a function of simulation time. \textbf{(B)} RMSD of the overall monomer is plotted as a function of time. \textbf{(C)} Kv1.2 and KcsA simulations are projected onto the same TIC space. Markov state model is made using the same set of microstates and the correponding free energy surface is plotted}
-	\label{fig:ch3_f3}
+	\label{fig:ch3_f5}
 \end{figure}
 
 \section{Conclusion}
@@ -143,4 +164,4 @@ For MSM analysis, all KcsA simulations were first projected onto the TIC space c
 %% REVERT FIGURE NUMBERING %%
 \renewcommand\thefigure{\thechapter.\arabic{figure}} 
 
-%%% END CHAPTER 2 MICROARRAY %%%
+%%% END CHAPTER 2 Design of fast folding potassium channel mutant %%%

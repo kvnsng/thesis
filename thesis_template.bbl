@@ -382,6 +382,20 @@ Manasi~P Bhate, Benjamin~J Wylie, Ameer Thompson, Lin Tian, Crina Nimigean, and
   Expression, purification, reconstitution into liposomes and functional assay.
 \newblock {\em Protein expression and purification}, 91(2):119--124, 2013.
 
+\bibitem{hagn2013}
+Franz Hagn, Manuel Etzkorn, Thomas Raschle, and Gerhard Wagner.
+\newblock Optimized phospholipid bilayer nanodiscs facilitate high-resolution
+  structure determination of membrane proteins.
+\newblock {\em Journal of the American Chemical Society}, 135(5):1919--1925,
+  2013.
+
+\bibitem{ritchie2009}
+TK~Ritchie, YV~Grinkova, TH~Bayburt, IG~Denisov, JK~Zolnerciks, WM~Atkins, and
+  SG~Sligar.
+\newblock Reconstitution of membrane proteins in phospholipid bilayer
+  nanodiscs.
+\newblock {\em Methods in enzymology}, 464:211--231, 2009.
+
 \bibitem{lee2006}
 D.~Lee, C.~Hilty, G.~Wider, and K.~Wuthrich.
 \newblock Effective rotational correlation times of proteins from nmr
@@ -407,5 +421,17 @@ M.~P. Pond, A.~Majumdar, and J.~T.~J. Lecomte.
 \newblock Influence of heme post-translational modification and distal ligation
   on the backbone dynamics of a monomeric hemoglobin.
 \newblock {\em Biochemistry}, 51(29):5733--5747, 2012.
+
+\bibitem{takeuchi2007}
+K.~Takeuchi, H.~Takahashi, S.~Kawano, and I.~Shimada.
+\newblock Identification and characterization of the slowly exchanging
+  ph-dependent conformational rearrangement in kcsa.
+\newblock {\em Journal of Biological Chemistry}, 282(20):15179--15186, 2007.
+
+\bibitem{cortes1997}
+D.~M. Cortes and E.~Perozo.
+\newblock Structural dynamics of the streptomyces lividans k+ channel (skc1):
+  oligomeric stoichiometry and stability.
+\newblock {\em Biochemistry}, 36(33):10343--52, 1997.
 
 \end{thebibliography}

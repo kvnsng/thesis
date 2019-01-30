@@ -4,45 +4,45 @@ The top-level auxiliary file: thesis_template.aux
 The style file: unsrt.bst
 Database file #1: thesis_ref.bib
 Warning--there's a month but no year in nesg2011
-You've used 63 entries,
+You've used 67 entries,
             1791 wiz_defined-function locations,
-            811 strings with 16383 characters,
-and the built_in function-call counts, 17174 in all, are:
-= -- 1414
-> -- 1013
+            834 strings with 17230 characters,
+and the built_in function-call counts, 18289 in all, are:
+= -- 1511
+> -- 1072
 < -- 3
-+ -- 360
-- -- 297
-* -- 1506
-:= -- 2811
-add.period$ -- 187
-call.type$ -- 63
-change.case$ -- 62
++ -- 381
+- -- 314
+* -- 1605
+:= -- 2991
+add.period$ -- 199
+call.type$ -- 67
+change.case$ -- 66
 chr.to.int$ -- 0
-cite$ -- 64
-duplicate$ -- 601
-empty$ -- 1519
-format.name$ -- 297
-if$ -- 3700
+cite$ -- 68
+duplicate$ -- 637
+empty$ -- 1621
+format.name$ -- 314
+if$ -- 3939
 int.to.chr$ -- 0
-int.to.str$ -- 63
-missing$ -- 62
-newline$ -- 316
-num.names$ -- 62
-pop$ -- 77
+int.to.str$ -- 67
+missing$ -- 66
+newline$ -- 336
+num.names$ -- 66
+pop$ -- 81
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 263
+skip$ -- 276
 stack$ -- 0
-substring$ -- 1431
-swap$ -- 106
+substring$ -- 1544
+swap$ -- 110
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 138
-width$ -- 65
-write$ -- 689
+while$ -- 148
+width$ -- 69
+write$ -- 733
 (There was 1 warning)
